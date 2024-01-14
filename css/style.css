@@ -1,9 +1,14 @@
 h1{
-    color: green;
-    border-style: dashed;
-    border-width: 10px;
-    border-color: black;
     text-align: center;
+}
+
+hr{
+    width: 10cm;
+}
+
+li{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 body{
@@ -11,9 +16,28 @@ body{
 }
 
 .banner{
-    text-align: center;
+    margin: auto;
+    width: 100%;
 }
 
 body{
     text-align: center;
+}
+
+.recipe-box{
+    background-color: antiquewhite;
+    width: 300px;
+    margin: auto;
+    border-style: double;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.recipe-body{
+    text-align: left;
 }
